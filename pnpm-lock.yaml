@@ -186,8 +186,8 @@ importers:
         specifier: 5.32.4
         version: 5.32.4(react-dom@18.2.0)(react@18.2.0)
       axios:
-        specifier: 0.21.2
-        version: 0.21.2
+        specifier: 1.13.5
+        version: 1.13.5(debug@4.3.4)
       classnames:
         specifier: 2.2.6
         version: 2.2.6
@@ -570,8 +570,8 @@ importers:
         specifier: ^2.1.0
         version: 2.2.2
       axios:
-        specifier: 0.21.4
-        version: 0.21.4
+        specifier: 1.13.5
+        version: 1.13.5(debug@4.3.4)
       color:
         specifier: ^3.1.3
         version: 3.2.1
@@ -761,8 +761,8 @@ importers:
   packages/databus-client:
     dependencies:
       axios:
-        specifier: ^0.27.2
-        version: 0.27.2
+        specifier: ^1.13.5
+        version: 1.13.5(debug@4.3.4)
     devDependencies:
       '@types/node':
         specifier: ^12.11.5
@@ -949,8 +949,8 @@ importers:
         specifier: ^2.1.0
         version: 2.2.2
       axios:
-        specifier: 0.21.4
-        version: 0.21.4
+        specifier: 1.13.5
+        version: 1.13.5(debug@4.3.4)
       bowser:
         specifier: ^2.11.0
         version: 2.11.0
@@ -2107,8 +2107,8 @@ importers:
         specifier: ^2.1.0
         version: 2.2.2
       axios:
-        specifier: 0.21.4
-        version: 0.21.4
+        specifier: 1.13.5
+        version: 1.13.5(debug@4.3.4)
       bowser:
         specifier: ^2.11.0
         version: 2.11.0
@@ -15419,7 +15419,7 @@ packages:
       cli-table3: 0.6.3
       color-support: 1.1.3
       cross-argv: 2.0.0
-      form-data: 4.0.0
+      form-data: 4.0.5
       has-async-hooks: 1.0.0
       hdr-histogram-js: 3.0.0
       hdr-histogram-percentiles-obj: 3.0.0
@@ -15523,15 +15523,7 @@ packages:
   /axios@0.21.1(debug@4.3.4):
     resolution: {integrity: sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
-  /axios@0.21.2:
-    resolution: {integrity: sha512-87otirqUw3e8CzHTMO+/9kh/FSgXt/eVDvipijwDtEuwbkySWZ9SBm6VEubmJ/kLKEoLQV/POhxXFb66bfekfg==}
-    dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.11(debug@4.3.4)
     transitivePeerDependencies:
       - debug
     dev: false
@@ -15539,7 +15531,7 @@ packages:
   /axios@0.21.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.11(debug@4.3.4)
     transitivePeerDependencies:
       - debug
     dev: false
@@ -15547,7 +15539,7 @@ packages:
   /axios@0.21.4(debug@4.3.1):
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.1)
+      follow-redirects: 1.15.11(debug@4.3.1)
     transitivePeerDependencies:
       - debug
     dev: true
@@ -15555,23 +15547,14 @@ packages:
   /axios@0.23.0(debug@4.3.4):
     resolution: {integrity: sha512-NmvAE4i0YAv5cKq8zlDoPd1VLKAqX5oLuZKs8xkJa4qi6RGn0uhCYFjWtHHC9EM/MwOwYWOs53W+V0aqEXq1sg==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.11(debug@4.3.4)
     transitivePeerDependencies:
       - debug
 
   /axios@0.24.0(debug@4.3.4):
     resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
-  /axios@0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
-    dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
-      form-data: 4.0.0
+      follow-redirects: 1.15.11(debug@4.3.4)
     transitivePeerDependencies:
       - debug
     dev: false
@@ -21550,6 +21533,18 @@ packages:
     resolution: {integrity: sha512-uyrAmLZrPnUItQY5wTdg31TO9GGZRGsh/jmohUg9oLmLi/sw5y7LlTV/mwyd6rvbxIOGwmRiv6LcTS8w7Bk9NQ==}
     dev: false
 
+  /follow-redirects@1.15.11(debug@4.3.1):
+    resolution: {integrity: sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dependencies:
+      debug: 4.3.1
+    dev: true
+
   /follow-redirects@1.15.11(debug@4.3.4):
     resolution: {integrity: sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==}
     engines: {node: '>=4.0'}
@@ -21561,7 +21556,7 @@ packages:
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
 
-  /follow-redirects@1.15.2(debug@4.3.1):
+  /follow-redirects@1.15.2:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
     engines: {node: '>=4.0'}
     peerDependencies:
@@ -21569,20 +21564,7 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
-    dependencies:
-      debug: 4.3.1
     dev: true
-
-  /follow-redirects@1.15.2(debug@4.3.4):
-    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-    dependencies:
-      debug: 4.3.4(supports-color@8.1.1)
 
   /follow-redirects@1.5.10:
     resolution: {integrity: sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==}
@@ -21791,6 +21773,7 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.35
+    dev: false
 
   /form-data@4.0.5:
     resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
@@ -23008,7 +22991,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.2
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -25701,7 +25684,7 @@ packages:
       decimal.js: 10.4.3
       domexception: 4.0.0
       escodegen: 2.1.0
-      form-data: 4.0.0
+      form-data: 4.0.5
       html-encoding-sniffer: 3.0.0
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
@@ -25743,7 +25726,7 @@ packages:
       decimal.js: 10.4.3
       domexception: 4.0.0
       escodegen: 2.1.0
-      form-data: 4.0.0
+      form-data: 4.0.5
       html-encoding-sniffer: 3.0.0
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
