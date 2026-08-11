@@ -1833,8 +1833,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       fastify-multipart:
-        specifier: 4.0.0
-        version: 4.0.0
+        specifier: 5.2.0
+        version: 5.2.0
       fastify-swagger:
         specifier: 4.3.3
         version: 4.3.3
@@ -6764,6 +6764,13 @@ packages:
     resolution: {integrity: sha512-gvCOUNpXsWrIQ3A4aXCLIdblL0tDq42BG/2Xw7oxbil9h11uow10ztS2GuFazNBfjbrsZ5nl+nPl5jDSjj5TSg==}
     dependencies:
       ajv: 6.12.6
+    dev: false
+
+  /@fastify/busboy@1.2.1:
+    resolution: {integrity: sha512-7PQA7EH43S0CxcOa9OeAnaeA0oQ+e/DHNPZwSQM9CQHW76jle5+OvLdibRp/Aafs9KXbLhxyjOTkRjWUbQEd3Q==}
+    engines: {node: '>=14'}
+    dependencies:
+      text-decoding: 1.0.0
     dev: false
 
   /@figspec/components@1.0.2:
@@ -16615,13 +16622,6 @@ packages:
       - supports-color
     dev: false
 
-  /busboy@0.3.1:
-    resolution: {integrity: sha512-y7tTxhGKXcyBxRKAni+awqx8uqaJKrSFSNFSeRG5CsWNdmy2BIK+6VGWEW7TZnIO/533mtMEA4rOevQV815YJw==}
-    engines: {node: '>=4.5.0'}
-    dependencies:
-      dicer: 0.3.0
-    dev: false
-
   /bytes@3.0.0:
     resolution: {integrity: sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw==}
     engines: {node: '>= 0.8'}
@@ -19216,13 +19216,6 @@ packages:
       defined: 1.0.1
       minimist: 1.2.8
 
-  /dicer@0.3.0:
-    resolution: {integrity: sha512-MdceRRWqltEG2dZqO769g27N/3PXfcKl04VhYnBlo2YhH7zPi88VebsjTKclaOyiuMaGU72hTfw3VkUitGcVCA==}
-    engines: {node: '>=4.5.0'}
-    dependencies:
-      streamsearch: 0.1.2
-    dev: false
-
   /didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
 
@@ -21142,15 +21135,16 @@ packages:
       helmet: 4.0.0
     dev: false
 
-  /fastify-multipart@4.0.0:
-    resolution: {integrity: sha512-i2GFbKWjLCaQxpMZHweslF6ma8VTwgdmii87VexYi0Fxass0CPFKIs+z7wp0zVIdTMv0F5EFNQnimyzXcPcHcg==}
+  /fastify-multipart@5.2.0:
+    resolution: {integrity: sha512-ab2Y3P2g0+1MM3DtyB5UhUO2zrCNO8yTZmcc9GVYisvNX8W83zEw2X+ZluRN4A7Z2wVCMcwnHdKi3NEs1AZONA==}
     dependencies:
-      busboy: 0.3.1
+      '@fastify/busboy': 1.2.1
       deepmerge: 4.3.1
       end-of-stream: 1.4.4
       fastify-error: 0.3.1
       fastify-plugin: 3.0.1
       hexoid: 1.0.0
+      secure-json-parse: 2.7.0
       stream-wormhole: 1.1.0
     dev: false
 
@@ -34285,11 +34279,6 @@ packages:
       readable-stream: 2.3.8
     dev: true
 
-  /streamsearch@0.1.2:
-    resolution: {integrity: sha512-jos8u++JKm0ARcSUTAZXOVC0mSox7Bhn6sBgty73P1f3JGf7yG2clTbBNHUdde/kdvP2FESam+vM6l8jBrNxHA==}
-    engines: {node: '>=0.8.0'}
-    dev: false
-
   /strict-uri-encode@1.1.0:
     resolution: {integrity: sha512-R3f198pcvnB+5IpnBlRkphuE9n46WyVl8I39W/ZUTZLz4nqSP/oLYUrcnJrw462Ds8he4YKMov2efsTIw1BDGQ==}
     engines: {node: '>=0.10.0'}
@@ -35083,6 +35072,10 @@ packages:
       glob: 7.2.3
       minimatch: 3.1.2
     dev: true
+
+  /text-decoding@1.0.0:
+    resolution: {integrity: sha512-/0TJD42KDnVwKmDK6jj3xP7E2MG7SHAOG4tyTgyUCRPdHwvkquYNLEQltmdMa3owq3TkddCVcTsoctJI8VQNKA==}
+    dev: false
 
   /text-extensions@1.9.0:
     resolution: {integrity: sha512-wiBrwC1EhBelW12Zy26JeOUkQ5mRu+5o8rpsJk5+2t+Y5vE7e842qtZDQ2g1NpX/29HdyFeJ4nSIhI47ENSxlQ==}
